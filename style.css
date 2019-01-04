@@ -1,20 +1,33 @@
+/*Header*/
 #titlegreeting {
-text-align: center;
+text-align: left;
 color: grey;
+margin-left: .1em;
 }
-
+/*Picture section*/
+#titlegreetingsub {
+  color: grey;
+  opacity: .7;
+  text-align: center;
+  margin-top: 1.2em;
+  font-size: 48pt;
+}
+/*skill table*/
+#skilllist {
+  text-align: center;
+}
+/*Picture area*/
 #picturethis {
   max-width: 100%;
   height: auto;
   border-radius: 15em;
-  opacity: .7;
+  opacity: .8;
+  margin-bottom: 2em;
 }
-
-#bio {
-  text-align: center;
-  margin-top: 1em;
-}
-
 .mypic {
   background-color: grey;
+}
+/*bio text field*/
+#bio {
+  text-align: center;
 }

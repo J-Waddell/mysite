@@ -7,18 +7,38 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<!-- Turn into a gif that drops down the word hello -->
-<div id="titlegreeting">
-  <h1 class="display-1">Jesse Waddell</h1>
+<!-- Header/Greeting-->
+<div class="row">
+  <div class="col-md-4">
+    <h1 id="titlegreeting" class="display-1">Jesse Waddell</h1>
+  </div>
+  <div class="col-md-4">
+    <h1 id="titlegreetingsub" class="display-4">Software Developer</h1>
+  </div>
 </div>
 <!-- My picture -->
 <div class="mypic">
   <img id="picturethis" src="https://avatars2.githubusercontent.com/u/23487258?s=460&v=4" class="img-fluid mx-auto d-block" alt="Responsive image">  
 </div>
+<!-- Bio -->
 <div class="container">
-  <p id="bio">In west Philidalphia born and raised on the playground is where I spent most of my days. Chillin out relaxin all cool and shootin some b-ball outside of the school. When a couple of guys, they were up to no good, started making trouble in my neighborhood. I got in one little fight and my mom got scared and said "You're moving with your Auntie and Uncle in Belair." I whistled for a cab and when it came near the license plate said "Fresh" and had dice in the mirror. If anything I could say this cab was rare but thought man forget it, yo on to Belair! I pulled up to a house about 7 or 8 and I yelled to the cabby "Yo homie, smell ya later!" looked at my kingdom I was finally there. Sit on my throne as the Prince of Belair.</p>
+  <p id="bio">In west Philidalphia born and raised on the playground is where I spent most of my days. Chillin out relaxin all cool and shootin some b-ball outside of 
+the school. When a couple of guys, they were up to no good, started making trouble in my neighborhood. I got in one little fight and my mom got scared and said "You're 
+moving with your Auntie and Uncle in Belair." I whistled for a cab and when it came near the license plate said "Fresh" and had dice in the mirror. If anything I could 
+say this cab was rare but thought man forget it, yo on to Belair! I pulled up to a house about 7 or 8 and I yelled to the cabby "Yo homie, smell ya later!" looked at my 
+kingdom I was finally there. Sit on my throne as the Prince of Belair.</p>
 </div>
-
+<!-- List of skills -->
+<div class="container">
+  <ul id="skilllist" class="list-group list-group-flush">
+    <li class="list-group-item">Angular JS</li>
+    <li class="list-group-item">HTML5</li>
+    <li class="list-group-item">CSS3</li>
+    <li class="list-group-item">Javascript</li>
+    <li class="list-group-item">Node JS</li>
+  </ul>
+</div>
+<script src="main.js" type="text/javascript" charset="utf-8" async defer></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>

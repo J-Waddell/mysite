@@ -1,3 +1,9 @@
 #titlegreeting {
 text-align: center;
 }
+
+#picturethis {
+  max-width: 100% \9;
+  height: auto;
+}
+

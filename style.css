@@ -1,3 +1,6 @@
+body {
+  margin-bottom: 2em;
+}
 /*Header*/
 #titlegreeting {
 text-align: left;
@@ -21,13 +24,17 @@ margin-left: .2em;
   max-width: 100%;
   height: auto;
   border-radius: 15em;
-  opacity: .8;
+  opacity: .9;
   margin-bottom: 2em;
 }
 .mypic {
-  background-color: grey;
+  background-color: #efeee3;
 }
 /*bio text field*/
 #bio {
   text-align: center;
+}
+#imginfo {
+  align-self: center;
+  margin-top: 2em;
 }

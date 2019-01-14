@@ -12,12 +12,12 @@ margin-left: .2em;
   color: grey;
   opacity: .7;
   text-align: center;
-  margin-top: 1.2em;
   font-size: 48pt;
 }
 /*skill table*/
 #skilllist {
   text-align: center;
+  opacity: .5;
 }
 /*Picture area*/
 #picturethis {
@@ -33,8 +33,12 @@ margin-left: .2em;
 /*bio text field*/
 #bio {
   text-align: center;
+  margin-top: 2em;
 }
 #imginfo {
   align-self: center;
+  margin-top: 2em;
+}
+#imginfo2 {
   margin-top: 2em;
 }
